@@ -1,12 +1,33 @@
 name = str(input("What is your name?"))
 def welcome(): 
     print("Hello,"+name+"!") 
+    
+#Question number1:cpu preference    
 def chatbot(): 
     answer_0= input("What cpu do you prefer?") 
     if answer_0== "intel core i3": 
         print("Print I think that processor can't handle much so I don't like it.") 
     elif answer_0==     
-        print("Wrong!") 
+        print("") 
+    elif answer_0==     
+        print("") 
+    elif answer_0==     
+        print("") 
+    elif answer_0==     
+        print("") 
+    elif answer_0==     
+        print("") 
+    elif answer_0==     
+        print("") 
+    elif answer_0==     
+        print("") 
+    elif answer_0==     
+        print("") 
+    elif answer_0==     
+        print("")
+    elif answer_0==     
+        print("") 
+        
     answer_1=input("Is 123 a string or an integer or a float ?")
     if answer_1=="integer":
         print("Correct!")
@@ -17,11 +38,4 @@ def chatbot():
         print("Correct!")
     else:
       print("Wrong!")
-welcome()
-repeat = "yes"
-while repeat == "yes":
-  quiz()
-  repeat=input("Try again?")
-  while repeat == "no":
-    print("Thank you for playing,"+name+"!")
-    break
+
